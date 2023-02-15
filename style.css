@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+    border: 15px solid black;
+    width: 600px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+#slides {
+    display: flex;
+}
+
+.slide {
+    box-sizing: border-box;
+    min-width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.slide:nth-child(1) {
+    background-color: red;
+}
+
+.slide:nth-child(2) {
+    background-color: orange;
+}
+
+.slide:nth-child(3) {
+    background-color: yellow;
+}
+
+.slide:nth-child(4) {
+    background-color: green;
+}
+
+.slide:nth-child(5) {
+    background-color: cyan;
+}
+
+.slide:nth-child(6) {
+    background-color: blue;
+}
+
+.slide:nth-child(7) {
+    background-color: purple;
+}
